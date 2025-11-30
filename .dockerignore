@@ -1,0 +1,10 @@
+.gradle
+.idea
+build
+.git
+.gitignore
+README.md
+*.log
+.github
+.gitattributes
+gradle/wrapper/*.jar
