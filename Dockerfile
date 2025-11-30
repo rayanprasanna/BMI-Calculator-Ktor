@@ -5,7 +5,7 @@ COPY . .
 RUN gradle build -x test
 
 # Runtime stage
-FROM openjdk:17-slim
+FROM openjdk:26-ea-oraclelinux8
 WORKDIR /app
 
 # Copy the built JAR
